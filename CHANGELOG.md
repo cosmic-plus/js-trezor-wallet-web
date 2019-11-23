@@ -21,6 +21,12 @@ Versioning](https://semver.org/spec/v2.0.0.html)**. Version syntax is
 updates are guaranteed to respect backward-compatibility. For minor and major
 releases, please check this changelog before upgrading.
 
+## 0.5.0 - 2019-11-23
+
+### Changed
+
+- Logic: Update [trezor-connect] to 8.0.10. (bugfixes)
+
 ## 0.4.0 - 2019-11-09
 
 ### Added
@@ -45,7 +51,6 @@ releases, please check this changelog before upgrading.
 - Documentation: Multiple improvements & fixes. _Important:_
   `trezorWallet.register()` parameters were documented in the wrong order. The
   correct order is `(appUrl, email)`.
-
 
 ## 0.3.0 - 2019-10-19
 
